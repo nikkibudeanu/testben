@@ -1,0 +1,47 @@
+const token = {
+  id: "5786c5fa-bda6-467c-b1ec-c3f2643c5472",
+  idInVersion: "11764300",
+  brandId: "8e5f1a6a-9da2-4fe5-bd6b-31be14a06ccf",
+  themeId: null,
+  designSystemVersionId: "117328",
+  name: "900",
+  description: "",
+  tokenType: "Color",
+  origin: null,
+  parentGroupId: "ae63de57-c9dc-40b0-9603-cf0cb5436057",
+  createdAt: null,
+  updatedAt: "2024-07-29T15:38:42.001Z",
+  sortOrder: -1,
+  properties: [
+    {
+      idInVersion: "250202",
+      id: "5d7eb185-4e39-4ee6-8aad-9b3dfb9c3c50",
+      designSystemVersionId: "117328",
+      name: "Token set",
+      codeName: "tokenSet",
+      description: "This token is part of a set",
+      propertyType: "Select",
+      targetElementType: "Token",
+      linkElementType: null,
+      options: [
+        { id: "token-set-core", name: "Core", backgroundColor: "#F5F2FD" },
+        {
+          id: "token-set-semantic",
+          name: "Semantic",
+          backgroundColor: "#FEF0F5",
+        },
+        {
+          id: "token-set-component",
+          name: "Component",
+          backgroundColor: "#CDFDFD",
+        },
+      ],
+    },
+  ],
+  propertyValues: { tokenSet: "token-set-core" },
+  value: {
+    color: { r: 33, g: 41, b: 51, referencedTokenId: null },
+    opacity: { unit: "Raw", measure: 1, referencedTokenId: null },
+    referencedTokenId: null,
+  },
+};

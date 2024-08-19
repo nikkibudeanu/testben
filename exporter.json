@@ -1,0 +1,13 @@
+{
+  "id": "aviary.style-dictionary",
+  "name": "Fullscript Style Dictionary",
+  "description": "Style dictionary definition exporter",
+  "author": "Phoenix",
+  "organization": "fullscript",
+  "version": "0.0.0",
+  "usesBrands": true,
+  "usesThemes": true,
+  "executable": "/dist/build.js",
+  "engine": "latest",
+  "tags": ["Style Dictionary", "Tokens", "Styles"]
+}
